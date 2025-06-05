@@ -6,17 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B98486562DF207EB00F25E91 /* _D_Drag_AreaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98486522DF207EB00F25E91 /* _D_Drag_AreaApp.swift */; };
+		B98486572DF207EB00F25E91 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98486542DF207EB00F25E91 /* ContentView.swift */; };
+		B98486582DF207EB00F25E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98486532DF207EB00F25E91 /* Assets.xcassets */; };
+		B984865A2DF207FC00F25E91 /* AxisPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98486592DF207FC00F25E91 /* AxisPicker.swift */; };
+		B984865C2DF209AC00F25E91 /* hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B984865B2DF209AC00F25E91 /* hex.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B98486422DF207D400F25E91 /* 2D Drag Area.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2D Drag Area.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98486512DF207EB00F25E91 /* _D_Drag_Area.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Drag_Area.entitlements; sourceTree = "<group>"; };
+		B98486522DF207EB00F25E91 /* _D_Drag_AreaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Drag_AreaApp.swift; sourceTree = "<group>"; };
+		B98486532DF207EB00F25E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B98486542DF207EB00F25E91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B98486592DF207FC00F25E91 /* AxisPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisPicker.swift; sourceTree = "<group>"; };
+		B984865B2DF209AC00F25E91 /* hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B98486442DF207D400F25E91 /* 2D Drag Area */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "2D Drag Area";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B984863F2DF207D400F25E91 /* Frameworks */ = {
@@ -32,7 +38,7 @@
 		B98486392DF207D400F25E91 = {
 			isa = PBXGroup;
 			children = (
-				B98486442DF207D400F25E91 /* 2D Drag Area */,
+				B98486552DF207EB00F25E91 /* 2D Drag Area */,
 				B98486432DF207D400F25E91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +49,19 @@
 				B98486422DF207D400F25E91 /* 2D Drag Area.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B98486552DF207EB00F25E91 /* 2D Drag Area */ = {
+			isa = PBXGroup;
+			children = (
+				B98486512DF207EB00F25E91 /* _D_Drag_Area.entitlements */,
+				B98486522DF207EB00F25E91 /* _D_Drag_AreaApp.swift */,
+				B98486542DF207EB00F25E91 /* ContentView.swift */,
+				B98486592DF207FC00F25E91 /* AxisPicker.swift */,
+				B984865B2DF209AC00F25E91 /* hex.swift */,
+				B98486532DF207EB00F25E91 /* Assets.xcassets */,
+			);
+			path = "2D Drag Area";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +78,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B98486442DF207D400F25E91 /* 2D Drag Area */,
 			);
 			name = "2D Drag Area";
 			packageProductDependencies = (
@@ -109,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98486582DF207EB00F25E91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B98486562DF207EB00F25E91 /* _D_Drag_AreaApp.swift in Sources */,
+				B984865C2DF209AC00F25E91 /* hex.swift in Sources */,
+				B98486572DF207EB00F25E91 /* ContentView.swift in Sources */,
+				B984865A2DF207FC00F25E91 /* AxisPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
